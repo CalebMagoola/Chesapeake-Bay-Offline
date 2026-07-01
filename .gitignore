@@ -1,0 +1,12 @@
+# Ignore the compiler scratch space and final binaries
+Build/
+bin/
+
+# Ignore the large netcdf input data files sitting in the root
+*.nc
+
+# Ignore the symbolic directory links to the parent repo
+ROMS
+Master
+Compilers
+Modules
