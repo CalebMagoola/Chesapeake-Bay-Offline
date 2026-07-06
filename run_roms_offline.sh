@@ -8,7 +8,7 @@
 #$ -N mch_offline 
 #
 # EMAIL JOB RESULTS
-#$ -M jcrespin@icm.csic.es
+#$ -M caleb.magoola@noaa.gov
 #
 # LOG FILES
 #$ -o /home/juliac/OfflineFennel/outputs/

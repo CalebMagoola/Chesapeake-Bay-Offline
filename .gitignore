@@ -4,6 +4,7 @@ bin/
 
 # Ignore the large netcdf input data files sitting in the root
 *.nc
+*.log
 
 # Ignore the symbolic directory links to the parent repo
 ROMS

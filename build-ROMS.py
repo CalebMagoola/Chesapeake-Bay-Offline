@@ -57,7 +57,7 @@ def main(argv=None):
     USE_DEBUG = ''
     USE_LARGE = 'on'
 
-    FORT = os.getenv('FORT', 'ifort')  # 'gfortran')
+    FORT = os.getenv('FORT', 'ifort')
 
     USE_NETCDF4 = 'on'
 
@@ -99,7 +99,7 @@ def main(argv=None):
     headerfile = args[0] + '.h'
     assert os.path.exists(headerfile), \
         'ERROR: header file %s does not exist' % headerfile
-    
+
     MY_PROJECT_DIR=os.getcwd()
     MY_HEADER_DIR=os.getcwd()
     MY_ANALYTICAL_DIR=os.path.join(MY_PROJECT_DIR,'Functionals')

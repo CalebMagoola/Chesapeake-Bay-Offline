@@ -21,4 +21,4 @@ export MV2_USE_RDMA_CM_MCAST=0
 export MV2_USE_RDMA_CM=1
 export MV2_ENABLE_AFFINITY=0
 
-python3 build-ROMS.py --fort=ifort --mpi --clean gom_off_lmd
+python3 build-ROMS.py --fort=ifort --mpi --clean cp_off_lmd

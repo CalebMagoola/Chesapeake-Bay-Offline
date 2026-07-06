@@ -1,6 +1,6 @@
 /*
 **
-** Options for the northern Gulf of Mexico Application.
+** Options for the Chesapeake Bay Application.
 **
 */
 
