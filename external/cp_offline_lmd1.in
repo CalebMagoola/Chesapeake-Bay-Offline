@@ -890,7 +890,7 @@ Dout(iTvdif) == T T     ! temp_vdiff, ...    vertical diffusion
 ! except the last one.
 
      NCLMFILES == 1                         ! number of climate files
-     CLMNAME == gom_clm_lmd.nc                               !mixing  
+     CLMNAME == cp_clm_lmd.nc                               !mixing  
 
      NBCFILES == 1                          ! number of boundary files
      BRYNAME == data/mch_bry.nc
@@ -928,7 +928,7 @@ Dout(iTvdif) == T T     ! temp_vdiff, ...    vertical diffusion
 
      NFFILES == 1                          ! number of unique forcing files
 
-     FRCNAME == gom_frc_lmd.nc                             !mixing
+     FRCNAME == cp_frc_lmd.nc                             !mixing
 
 ! Output NetCDF file names, [1:Ngrids].
 

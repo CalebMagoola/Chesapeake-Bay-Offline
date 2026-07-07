@@ -32,4 +32,4 @@ conda activate base
 ulimit -s unlimited
 
 # Execute using srun across your 24 parallel processors pointing to the correct binary location
-srun -n $SLURM_NTASKS ./bin/coawstM external/gom_offline_lmd1.in
+srun -n $SLURM_NTASKS ./bin/coawstM external/cp_offline_lmd1.in
