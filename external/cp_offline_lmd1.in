@@ -869,8 +869,8 @@ Dout(iTvdif) == T T     ! temp_vdiff, ...    vertical diffusion
 
 ! Input NetCDF file names, [1:Ngrids].
 
-     GRDNAME == data/mch_grd.nc
-     ININAME == data/mch_ini.nc
+     GRDNAME == data/grd_chesbay336x564_v20230418.nc
+     ININAME == data/roms_ini.nc
 !     ITLNAME == ocean_itl.nc
 !     IRPNAME == ocean_irp.nc
 !     IADNAME == ocean_iad.nc
@@ -890,7 +890,7 @@ Dout(iTvdif) == T T     ! temp_vdiff, ...    vertical diffusion
 ! except the last one.
 
      NCLMFILES == 1                         ! number of climate files
-     CLMNAME == cp_clm_lmd.nc                               !mixing  
+     CLMNAME == input/cp_clm_lmd.nc                               !mixing  
 
      NBCFILES == 1                          ! number of boundary files
      BRYNAME == data/bry_chesbay336x564x20_2022_v20250820.nc
@@ -902,11 +902,11 @@ Dout(iTvdif) == T T     ! temp_vdiff, ...    vertical diffusion
 
 ! Input Sources/Sinks forcing (like river runoff) file name.
 
-     SSFNAME == data/mch_river.nc
+     SSFNAME == data/riv_chesbay336x564x20_v20250625.nc
 
 ! Input tidal forcing file name.
 
-!    TIDENAME == ocean_tides.nc
+!    TIDENAME == data/tides_chesbay336x564_v20210914.nc
 
 ! Input forcing NetCDF file name(s).
 !
@@ -928,7 +928,7 @@ Dout(iTvdif) == T T     ! temp_vdiff, ...    vertical diffusion
 
      NFFILES == 1                          ! number of unique forcing files
 
-     FRCNAME == cp_frc_lmd.nc                             !mixing
+     FRCNAME == input/cp_frc_lmd.nc                             !mixing
 
 ! Output NetCDF file names, [1:Ngrids].
 
