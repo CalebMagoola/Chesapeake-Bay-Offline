@@ -50,6 +50,7 @@ def main(argv=None):
     # Get default values from environment, if present
 
     ROMS_ROOT_DIR = '/work2/noaa/aoml-oap-oa2o/cmagoo/GitHub/Chesapeake-Bay-Offline'
+    #ROMS_ROOT_DIR = '/work2/noaa/aoml-oap-oa2o/data/CBEFS_2022/myromsorg_develop20250711_customized'
 
     USE_MPI = ''
     USE_MPIF90 = ''

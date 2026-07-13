@@ -1,6 +1,7 @@
 # Ignore the compiler scratch space and final binaries
 Build/
 bin/
+Build_romsM/
 
 # Ignore the large netcdf input data files sitting in the root
 *.nc
@@ -12,3 +13,4 @@ Master
 Compilers
 Modules
 data_ngom
+romsM

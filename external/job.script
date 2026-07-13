@@ -1,0 +1,10 @@
+#!/bin/tcsh
+# Submit job by typing: sbatch job.script
+#SBATCH --job-name=cb600m
+#SBATCH -N 4 --ntasks-per-node=20
+#SBATCH -C james
+#SBATCH -t 71:59:59
+# james   has a max. walltime of  72hrs, ?? nodes, each node having 2x10=20 cores.
+#
+cd /ches/home00/pierre/inputs_cb4crespin/
+srun /ches/home00/pierre/inputs_cb4crespin/romsM /ches/home00/pierre/inputs_cb4crespin/roms_cb600m.in >& /ches/home00/pierre/inputs_cb4crespin/log_cb600m.txt

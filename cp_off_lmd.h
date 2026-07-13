@@ -15,7 +15,8 @@
 # define OFFLINE_BIOLOGY
 # define OUT_DOUBLE
 # define PERFECT_RESTART
-# define FENNEL
+# define ECB
+# undef FENNEL
 
 # define OCLIMATOLOGY
 # define ATCLIMATOLOGY
@@ -86,7 +87,10 @@
 
 /* BIOLOGY */
 # define BIOLOGY
-# define BIO_FENNEL
+# undef BIO_FENNEL
+# define ECB
+# define ROMS_ECB
+# define CARBON
 # define OXYGEN
 # define RW14_OXYGEN_SC
 # define BIO_SEDIMENT
