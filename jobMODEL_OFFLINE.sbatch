@@ -24,9 +24,9 @@ module load netcdf-fortran/4.6.0
 module load zlib/1.2.13
 
 # Load and activate your verified Python environment
-module load miniconda3/24.3.0
-source $(conda info --base)/etc/profile.d/conda.sh
-conda activate base
+# module load miniconda3/24.3.0
+# source $(conda info --base)/etc/profile.d/conda.sh
+# conda activate base
 
 # Prevent memory array allocation stack overflows (Critical for 3D grids)
 ulimit -s unlimited
